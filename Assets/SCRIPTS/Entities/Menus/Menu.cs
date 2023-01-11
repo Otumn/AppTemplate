@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Otumn.Frigo
+namespace Otumn.AppTemplate
 {
     public class Menu : Entity
     {
@@ -18,5 +18,7 @@ namespace Otumn.Frigo
         {
             menuGO.SetActive(false);
         }
+
+        public string MenuName { get => menuName;}
     }
 }

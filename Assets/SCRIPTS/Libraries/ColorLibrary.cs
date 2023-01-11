@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Otumn.Frigo
+namespace Otumn.AppTemplate
 {
     [CreateAssetMenu(fileName = "ColorLibrary", menuName = "Frigo SO/ColorLibrary", order = 1)]
     public class ColorLibrary : ScriptableObject

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Otumn.Frigo
+namespace Otumn.AppTemplate
 {
     public class MenusManager : Entity
     {
@@ -14,9 +14,7 @@ namespace Otumn.Frigo
         public override void OnManagersInitialized()
         {
             base.OnManagersInitialized();
-            currentMenu = menuArray[0];
-            currentMenuIndex = 0;
-            currentMenu.FocusMenu();
+            SelectNewMenu(0);
         }
 
         public void SelectNewMenu(int menuInt)
@@ -24,7 +22,8 @@ namespace Otumn.Frigo
             if (menuInt >= menuArray.Length) return;
             if (menuArray[menuInt] == currentMenu) return;
 
-            currentMenu.UnfocusMenu();
+            if (currentMenu != null) currentMenu.UnfocusMenu();
+
             currentMenu = menuArray[menuInt];
             currentMenuIndex = menuInt;
             currentMenu.FocusMenu();
@@ -33,5 +32,6 @@ namespace Otumn.Frigo
         }
 
         public int CurrentMenuIndex { get => currentMenuIndex; }
+        public Menu CurrentMenu { get => currentMenu;}
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Otumn.Frigo
+namespace Otumn.AppTemplate
 {
     public class MenusButton : Entity
     {
@@ -27,7 +27,7 @@ namespace Otumn.Frigo
         public override void OnMenuSwitched(Menu newMenu)
         {
             base.OnMenuSwitched(newMenu);
-            ToggleMenusList();
+            if(menusToggled) ToggleMenusList();
         }
     }
 }

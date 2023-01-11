@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Otumn.Frigo
+namespace Otumn.AppTemplate
 {
     public class MenuFocusor : Entity
     {

@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12614486cc7ecdc4eb14c8cd1f806abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuName: Menu
+  menuName: 4444444
   menuGO: {fileID: 1737054634}
 --- !u!1 &366311719
 GameObject:
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12614486cc7ecdc4eb14c8cd1f806abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuName: Menu
+  menuName: UN UN UN
   menuGO: {fileID: 548669761}
 --- !u!1 &447368463
 GameObject:
@@ -1451,6 +1451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 995540739}
+  - component: {fileID: 995540742}
   - component: {fileID: 995540741}
   - component: {fileID: 995540740}
   m_Layer: 5
@@ -1519,6 +1520,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995540738}
   m_CullTransparentMesh: 1
+--- !u!114 &995540742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995540738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a7961e3aa7bbc4c8d2addb6002df32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1026890024}
 --- !u!1 &1026890022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menusManagerObject: {fileID: 1342224909}
-  colorLibraryObject: {fileID: 0}
+  colorLibraryObject: {fileID: 11400000, guid: 87dcf6add9d8ade42be110c79c2a9ea8, type: 2}
 --- !u!1 &1265969972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12614486cc7ecdc4eb14c8cd1f806abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuName: Menu
+  menuName: 22222
   menuGO: {fileID: 835495343}
 --- !u!1 &1424677617
 GameObject:
@@ -2257,7 +2271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12614486cc7ecdc4eb14c8cd1f806abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuName: Menu
+  menuName: 333333
   menuGO: {fileID: 2038663266}
 --- !u!1 &1632946162
 GameObject:
